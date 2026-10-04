@@ -1,0 +1,63 @@
+name,scientific_name,score,priority,cr,es,ev,bd,pc,water_needs,max_height_m,max_spread_m,trunk_diameter_m
+Texas Ebony,Ebenopsis ebano,81.2,1,100,57,53,100,78,Low,8,6,0.25
+Blue Oak,Quercus douglasii,81.2,1,100,59,75,90,70,Low,15,12,0.5
+Holly Oak,Quercus ilex,79.3,1,100,64,45,90,69,Low,18,18,0.6
+California Buckeye,Aesculus californica,78.9,1,98,50,60,100,76,Low,8,8,0.3
+Desert Willow,Chilopsis linearis,78.4,1,100,43,76,100,67,Low,8,6,0.2
+Interior Live Oak,Quercus wislizeni,78.4,1,88,84,60,100,55,Low,15,12,0.5
+Netleaf Hackberry,Celtis reticulata,74.7,2,98,41,53,100,67,Low,12,10,0.35
+Canyon Live Oak,Quercus chrysolepis,74.7,2,88,66,79,77,67,Low,15,15,0.55
+Maverick Mesquite,Prosopis glandulosa 'Maverick',74.5,2,100,38,53,85,80,Low,8,8,0.25
+Valley Oak,Quercus lobata,74.4,2,88,77,60,90,49,Low,21,15,0.9
+Coast Live Oak,Quercus agrifolia,74.0,2,88,84,60,71,55,Low,18,21,0.8
+Catalina Ironwood,Lyonothamnus floribundus,73.9,2,83,65,76,88,69,Low,11,6,0.3
+Island Oak,Quercus tomentella,73.5,2,77,74,82,90,69,Low,12,11,0.4
+Mulga,Acacia aneura,71.5,2,100,26,29,100,81,Low,6,5,0.15
+Desert Museum Palo Verde,Parkinsonia x 'Desert Museum',70.9,2,100,27,50,92,69,Low,8,8,0.2
+Shoestring Acacia,Acacia stenophylla,70.8,2,100,22,32,100,81,Low,10,8,0.25
+Madrone,Arbutus menziesii,70.6,2,86,61,67,67,72,Low,12,9,0.4
+Gray Pine,Pinus sabiniana,70.2,2,86,59,66,82,58,Low,18,10,0.6
+Horsetail Tree,Casuarina equisetifolia,69.7,2,88,70,15,100,47,Medium,6,5,0.2
+White Shield Osage Orange,Maclura pomifera 'White Shield',66.9,2,88,50,26,75,76,Low,6,5,0.2
+California Bay Laurel,Umbellularia californica,66.8,2,76,71,57,77,64,Low,15,12,0.45
+Ghost Gum,Corymbia papuana,63.9,3,88,60,15,76,47,Medium,6,5,0.2
+Canby's Oak,Quercus canbyi,61.4,3,66,48,59,90,74,Low,18,15,0.5
+Western Redbud,Cercis occidentalis,59.8,3,64,42,54,100,69,Low,6,6,0.15
+Mexican Fan Palm,Washingtonia robusta,59.1,3,76,34,56,76,61,Medium,20,4,0.35
+California Fan Palm,Washingtonia filifera,54.4,3,56,42,79,76,65,Low,22,4,0.4
+Toyon,Heteromeles arbutifolia,53.5,3,57,39,51,83,71,Low,5,5,0.15
+Olive Tree,Olea europaea,52.6,3,43,48,48,100,85,Medium,8,8,0.3
+Deodar Cedar,Cedrus deodara,49.6,4,43,75,54,81,61,Medium,25,10,0.8
+California Black Oak,Quercus kelloggii,49.5,4,45,63,75,70,59,Medium,18,12,0.55
+Chanticleer Flowering Pear,Pyrus kawakamii,48.4,4,55,39,45,61,69,Low,6,8,0.2
+Water Gum Tree,Tristaniopsis laurina,47.2,4,43,42,19,92,81,Medium,8,6,0.25
+Chinese Pistache,Pistacia chinensis,47.1,4,40,61,45,68,81,Medium,12,9,0.4
+Marina Strawberry Tree,Arbutus 'Marina',46.5,4,42,53,48,75,67,Medium,8,8,0.25
+California Nutmeg,Torreya californica,46.4,4,33,44,50,100,76,Low,12,8,0.35
+Tuscarora Crape Myrtle,Lagerstroemia 'Tuscarora',46.4,4,43,39,45,80,72,Medium,6,6,0.15
+Brisbane Box,Lophostemon confertus,45.9,4,45,58,15,85,64,Medium,12,8,0.35
+Modesto Ash,Fraxinus velutina 'Modesto',44.0,4,47,51,82,48,42,Medium,12,11,0.4
+Tanoak,Notholithocarpus densiflorus,43.4,4,33,76,72,64,59,Medium,18,12,0.5
+Ornamental Pear,Pyrus calleryana,43.1,4,54,36,22,62,53,Medium,11,8,0.3
+Shamel Ash,Fraxinus uhdei,43.0,4,41,69,59,70,36,Medium,24,15,0.9
+Cork Oak,Quercus suber,42.7,4,31,64,28,99,62,Low,15,15,0.5
+London Plane 'Bloodgood',Platanus x acerifolia 'Bloodgood',42.5,4,46,62,21,68,47,High,21,15,0.7
+Camphor Tree,Cinnamomum camphora,42.4,4,40,52,45,75,49,Medium,18,15,0.6
+Southern Magnolia,Magnolia grandiflora,40.1,4,26,73,53,66,73,Medium,21,15,0.7
+Purple-leafed Plum,Prunus cerasifera,40.1,4,41,44,51,49,60,Medium,6,6,0.2
+California Sycamore,Platanus racemosa,39.7,4,31,74,46,76,49,Medium,21,15,0.7
+Raywood Ash,Fraxinus angustifolia 'Raywood',39.1,4,43,61,36,42,52,Medium,15,9,0.45
+Maidenhair Tree,Ginkgo biloba,39.0,4,31,50,12,92,62,Medium,18,8,0.5
+Pacific Willow,Salix lucida ssp. lasiandra,38.4,4,29,43,75,77,42,High,18,12,0.5
+Boxelder,Acer negundo,38.2,4,33,53,66,64,42,Medium,15,10,0.4
+Stone Fruit Species,Mix of stone-fruit species,38.2,4,33,44,57,49,68,High,9,6,0.25
+Autumn Purple Ash,Fraxinus americana 'Autumn Purple',37.4,4,29,75,62,49,56,Medium,24,15,0.8
+Muskogee Crape Myrtle,Lagerstroemia 'Muskogee',36.9,4,27,39,45,65,72,Medium,6,6,0.15
+White Alder,Alnus rhombifolia,36.3,4,27,53,56,76,42,High,18,10,0.4
+Aristocrat Flowering Pear,Pyrus calleryana 'Aristocrat',36.2,4,36,51,45,55,42,Low,9,6,0.25
+American Sweet Gum,Liquidambar styraciflua,33.9,5,24,74,56,59,42,Medium,21,11,0.6
+Red Maple 'October Glory',Acer rubrum 'October Glory',33.4,5,23,70,36,51,67,Medium,15,9,0.4
+Red Willow,Salix laevigata,33.3,5,17,45,75,77,43,High,15,12,0.45
+Fremont Cottonwood,Populus fremontii,32.8,5,21,74,72,64,32,High,21,15,0.7
+Bigleaf Maple,Acer macrophyllum,31.6,5,14,63,73,64,49,Medium,21,15,0.7
+Coast Redwood,Sequoia sempervirens,27.1,5,8,75,24,76,60,High,40,15,1.2

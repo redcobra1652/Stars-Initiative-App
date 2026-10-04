@@ -1,0 +1,558 @@
+{
+  "version": "2.0",
+  "generatedBy": "GNN Urban Forest Analyzer \u2014 RL Swap Scheduler",
+  "cityConfig": {
+    "cityName": "Milpitas",
+    "annualBudget": 650000.0,
+    "simYears": 25,
+    "replacementRate": 0.6,
+    "costRemoval": 700,
+    "costPlant": 400,
+    "costLarge": 900,
+    "costWater3yr": 140,
+    "costMaintenance": 95,
+    "overheadPct": 0.15,
+    "climate": {
+      "currentTempF": 76.0,
+      "temp2050F": 80.4,
+      "currentRainfallIn": 15.5,
+      "rainfall2050In": 13.2
+    },
+    "scoringFormula": "CR*0.35 + EES*0.25 + DR*0.15 + EV*0.10 + Practical*0.15",
+    "swapCostFormula": "n * (removal*(1+overhead) + plant*(1+overhead) + water3yr)"
+  },
+  "swapBatches": [
+    {
+      "id": "AMERICAN SWEET GUM",
+      "speciesName": "American Sweet Gum",
+      "priorityLevel": "Priority 5",
+      "totalToReplace": 537,
+      "currentScore": 34.0,
+      "urgency": 0.83,
+      "scoreGainPerTree": 21.0
+    },
+    {
+      "id": "AUTUMN PURPLE ASH",
+      "speciesName": "Autumn Purple Ash",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 9,
+      "currentScore": 37.4,
+      "urgency": 0.68,
+      "scoreGainPerTree": 17.6
+    },
+    {
+      "id": "BRISBANE BOX",
+      "speciesName": "Brisbane Box",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 60,
+      "currentScore": 46.4,
+      "urgency": 0.66,
+      "scoreGainPerTree": 8.6
+    },
+    {
+      "id": "CALIFORNIA SYCAMORE",
+      "speciesName": "California Sycamore",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 10,
+      "currentScore": 39.7,
+      "urgency": 0.8,
+      "scoreGainPerTree": 15.3
+    },
+    {
+      "id": "CAMPHOR TREE",
+      "speciesName": "Camphor Tree",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 90,
+      "currentScore": 41.6,
+      "urgency": 0.76,
+      "scoreGainPerTree": 13.4
+    },
+    {
+      "id": "CHINESE PISTACHE",
+      "speciesName": "Chinese Pistache",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 528,
+      "currentScore": 47.3,
+      "urgency": 0.69,
+      "scoreGainPerTree": 7.7
+    },
+    {
+      "id": "COAST REDWOOD",
+      "speciesName": "Coast Redwood",
+      "priorityLevel": "Priority 5",
+      "totalToReplace": 246,
+      "currentScore": 28.8,
+      "urgency": 0.83,
+      "scoreGainPerTree": 26.2
+    },
+    {
+      "id": "LONDON PLANE 'BLOODGOOD'",
+      "speciesName": "London Plane 'Bloodgood'",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 1048,
+      "currentScore": 39.5,
+      "urgency": 0.78,
+      "scoreGainPerTree": 15.5
+    },
+    {
+      "id": "MAIDENHAIR TREE",
+      "speciesName": "Maidenhair Tree",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 189,
+      "currentScore": 37.4,
+      "urgency": 0.71,
+      "scoreGainPerTree": 17.6
+    },
+    {
+      "id": "MARINA STRAWBERRY TREE",
+      "speciesName": "Marina Strawberry Tree",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 42,
+      "currentScore": 46.1,
+      "urgency": 0.74,
+      "scoreGainPerTree": 8.9
+    },
+    {
+      "id": "MODESTO ASH",
+      "speciesName": "Modesto Ash",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 475,
+      "currentScore": 41.9,
+      "urgency": 0.72,
+      "scoreGainPerTree": 13.1
+    },
+    {
+      "id": "MUSKOGEE CRAPE MYRTLE",
+      "speciesName": "Muskogee Crape Myrtle",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 777,
+      "currentScore": 36.4,
+      "urgency": 0.79,
+      "scoreGainPerTree": 18.6
+    },
+    {
+      "id": "ORNAMENTAL PEAR",
+      "speciesName": "Ornamental Pear",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 548,
+      "currentScore": 40.5,
+      "urgency": 0.82,
+      "scoreGainPerTree": 14.5
+    },
+    {
+      "id": "PURPLE-LEAFED PLUM",
+      "speciesName": "Purple-Leafed Plum",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 153,
+      "currentScore": 38.8,
+      "urgency": 0.77,
+      "scoreGainPerTree": 16.2
+    },
+    {
+      "id": "RAYWOOD ASH",
+      "speciesName": "Raywood Ash",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 204,
+      "currentScore": 39.3,
+      "urgency": 0.71,
+      "scoreGainPerTree": 15.7
+    },
+    {
+      "id": "RED MAPLE 'OCTOBER GLORY'",
+      "speciesName": "Red Maple 'October Glory'",
+      "priorityLevel": "Priority 5",
+      "totalToReplace": 379,
+      "currentScore": 32.9,
+      "urgency": 0.76,
+      "scoreGainPerTree": 22.1
+    },
+    {
+      "id": "SHAMEL ASH",
+      "speciesName": "Shamel Ash",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 101,
+      "currentScore": 43.0,
+      "urgency": 0.71,
+      "scoreGainPerTree": 12.0
+    },
+    {
+      "id": "SOUTHERN MAGNOLIA",
+      "speciesName": "Southern Magnolia",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 558,
+      "currentScore": 40.1,
+      "urgency": 0.62,
+      "scoreGainPerTree": 14.9
+    },
+    {
+      "id": "STONE FRUIT SPECIES",
+      "speciesName": "Stone Fruit Species",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 9,
+      "currentScore": 38.1,
+      "urgency": 0.77,
+      "scoreGainPerTree": 16.9
+    },
+    {
+      "id": "WHITE ALDER",
+      "speciesName": "White Alder",
+      "priorityLevel": "Priority 4",
+      "totalToReplace": 24,
+      "currentScore": 36.3,
+      "urgency": 0.81,
+      "scoreGainPerTree": 18.7
+    }
+  ],
+  "startingInventory": {
+    "AMERICAN SWEET GUM": 895.0,
+    "AUTUMN PURPLE ASH": 15.0,
+    "BRISBANE BOX": 101.0,
+    "CALIFORNIA BUCKEYE": 2.0,
+    "CALIFORNIA FAN PALM": 59.0,
+    "CALIFORNIA SYCAMORE": 18.0,
+    "CAMPHOR TREE": 151.0,
+    "CHINESE PISTACHE": 881.0,
+    "COAST LIVE OAK": 85.0,
+    "COAST REDWOOD": 411.0,
+    "DEODAR CEDAR": 79.0,
+    "DESERT WILLOW": 3.0,
+    "HOLLY OAK": 139.0,
+    "LONDON PLANE 'BLOODGOOD'": 1747.0,
+    "MAIDENHAIR TREE": 316.0,
+    "MARINA STRAWBERRY TREE": 70.0,
+    "MEXICAN FAN PALM": 228.0,
+    "MODESTO ASH": 792.0,
+    "MUSKOGEE CRAPE MYRTLE": 1295.0,
+    "NETLEAF HACKBERRY": 458.0,
+    "ORNAMENTAL PEAR": 914.0,
+    "PURPLE-LEAFED PLUM": 255.0,
+    "RAYWOOD ASH": 341.0,
+    "RED MAPLE 'OCTOBER GLORY'": 632.0,
+    "SHAMEL ASH": 169.0,
+    "SOUTHERN MAGNOLIA": 930.0,
+    "STONE FRUIT SPECIES": 15.0,
+    "TOYON": 1.0,
+    "VALLEY OAK": 11.0,
+    "WESTERN REDBUD": 51.0,
+    "WHITE ALDER": 40.0
+  },
+  "scoreTable": {
+    "AMERICAN SWEET GUM": 34.0,
+    "ARISTOCRAT FLOWERING PEAR": 36.2,
+    "AUTUMN PURPLE ASH": 37.4,
+    "BIGLEAF MAPLE": 31.6,
+    "BLUE OAK": 81.2,
+    "BOXELDER": 38.2,
+    "BRISBANE BOX": 46.4,
+    "CALIFORNIA BAY LAUREL": 66.8,
+    "CALIFORNIA BLACK OAK": 49.5,
+    "CALIFORNIA BUCKEYE": 78.9,
+    "CALIFORNIA FAN PALM": 54.4,
+    "CALIFORNIA NUTMEG": 46.4,
+    "CALIFORNIA SYCAMORE": 39.7,
+    "CAMPHOR TREE": 41.6,
+    "CANBY'S OAK": 61.4,
+    "CANYON LIVE OAK": 74.7,
+    "CATALINA IRONWOOD": 73.9,
+    "CHANTICLEER FLOWERING PEAR": 48.4,
+    "CHINESE PISTACHE": 47.3,
+    "COAST LIVE OAK": 74.8,
+    "COAST REDWOOD": 28.8,
+    "CORK OAK": 42.8,
+    "DEODAR CEDAR": 50.2,
+    "DESERT MUSEUM PALO VERDE": 70.9,
+    "DESERT WILLOW": 78.4,
+    "FREMONT COTTONWOOD": 32.8,
+    "GHOST GUM": 63.9,
+    "GRAY PINE": 70.2,
+    "HOLLY OAK": 79.3,
+    "HORSETAIL TREE": 69.7,
+    "INTERIOR LIVE OAK": 78.4,
+    "ISLAND OAK": 73.5,
+    "LONDON PLANE 'BLOODGOOD'": 39.5,
+    "MADRONE": 70.6,
+    "MAIDENHAIR TREE": 37.4,
+    "MARINA STRAWBERRY TREE": 46.1,
+    "MAVERICK MESQUITE": 74.5,
+    "MEXICAN FAN PALM": 58.8,
+    "MODESTO ASH": 41.9,
+    "MULGA": 71.5,
+    "MUSKOGEE CRAPE MYRTLE": 36.4,
+    "NETLEAF HACKBERRY": 73.3,
+    "OLIVE TREE": 52.6,
+    "ORNAMENTAL PEAR": 40.5,
+    "PACIFIC WILLOW": 38.4,
+    "PURPLE-LEAFED PLUM": 38.8,
+    "RAYWOOD ASH": 39.3,
+    "RED MAPLE 'OCTOBER GLORY'": 32.9,
+    "RED WILLOW": 33.3,
+    "SHAMEL ASH": 43.0,
+    "SHOESTRING ACACIA": 70.8,
+    "SOUTHERN MAGNOLIA": 40.1,
+    "STONE FRUIT SPECIES": 38.1,
+    "TANOAK": 43.4,
+    "TEXAS EBONY": 81.2,
+    "TOYON": 53.5,
+    "TUSCARORA CRAPE MYRTLE": 46.4,
+    "VALLEY OAK": 74.4,
+    "WATER GUM TREE": 47.2,
+    "WESTERN REDBUD": 59.8,
+    "WHITE ALDER": 36.3,
+    "WHITE SHIELD OSAGE ORANGE": 66.9
+  },
+  "rlBenchmark": [
+    {
+      "year": 1,
+      "action": "PURPLE-LEAFED PLUM",
+      "actionIndex": 13,
+      "starsScore": 43.223,
+      "pctDone": 8.4,
+      "budgetLeft": 159655.0,
+      "reward": 39.71
+    },
+    {
+      "year": 2,
+      "action": "PURPLE-LEAFED PLUM",
+      "actionIndex": 13,
+      "starsScore": 43.421,
+      "pctDone": 15.0,
+      "budgetLeft": 565700.0,
+      "reward": 28.64
+    },
+    {
+      "year": 3,
+      "action": "COAST REDWOOD",
+      "actionIndex": 6,
+      "starsScore": 43.645,
+      "pctDone": 21.8,
+      "budgetLeft": 553055.0,
+      "reward": 31.68
+    },
+    {
+      "year": 4,
+      "action": "COAST REDWOOD",
+      "actionIndex": 6,
+      "starsScore": 45.232,
+      "pctDone": 26.7,
+      "budgetLeft": 890.0,
+      "reward": 33.27
+    },
+    {
+      "year": 5,
+      "action": "COAST REDWOOD",
+      "actionIndex": 6,
+      "starsScore": 45.758,
+      "pctDone": 32.5,
+      "budgetLeft": 429415.0,
+      "reward": 39.21
+    },
+    {
+      "year": 6,
+      "action": "COAST REDWOOD",
+      "actionIndex": 6,
+      "starsScore": 46.029,
+      "pctDone": 40.8,
+      "budgetLeft": 539005.0,
+      "reward": 44.17
+    },
+    {
+      "year": 7,
+      "action": "PURPLE-LEAFED PLUM",
+      "actionIndex": 13,
+      "starsScore": 47.574,
+      "pctDone": 45.2,
+      "budgetLeft": 139985.0,
+      "reward": 45.9
+    },
+    {
+      "year": 8,
+      "action": "CALIFORNIA SYCAMORE",
+      "actionIndex": 3,
+      "starsScore": 49.234,
+      "pctDone": 52.0,
+      "budgetLeft": 57090.0,
+      "reward": 43.88
+    },
+    {
+      "year": 9,
+      "action": "CALIFORNIA SYCAMORE",
+      "actionIndex": 3,
+      "starsScore": 51.038,
+      "pctDone": 54.2,
+      "budgetLeft": 890.0,
+      "reward": 22.84
+    },
+    {
+      "year": 10,
+      "action": "CALIFORNIA SYCAMORE",
+      "actionIndex": 3,
+      "starsScore": 52.864,
+      "pctDone": 56.4,
+      "budgetLeft": 890.0,
+      "reward": 22.71
+    },
+    {
+      "year": 11,
+      "action": "CALIFORNIA SYCAMORE",
+      "actionIndex": 3,
+      "starsScore": 54.647,
+      "pctDone": 60.1,
+      "budgetLeft": 890.0,
+      "reward": 39.03
+    },
+    {
+      "year": 12,
+      "action": "BRISBANE BOX",
+      "actionIndex": 2,
+      "starsScore": 55.398,
+      "pctDone": 63.6,
+      "budgetLeft": 392885.0,
+      "reward": 40.72
+    },
+    {
+      "year": 13,
+      "action": "BRISBANE BOX",
+      "actionIndex": 2,
+      "starsScore": 57.443,
+      "pctDone": 68.2,
+      "budgetLeft": 890.0,
+      "reward": 38.95
+    },
+    {
+      "year": 14,
+      "action": "WHITE ALDER",
+      "actionIndex": 19,
+      "starsScore": 59.6,
+      "pctDone": 71.2,
+      "budgetLeft": 890.0,
+      "reward": 36.72
+    },
+    {
+      "year": 15,
+      "action": "BRISBANE BOX",
+      "actionIndex": 2,
+      "starsScore": 61.407,
+      "pctDone": 75.1,
+      "budgetLeft": 890.0,
+      "reward": 36.59
+    },
+    {
+      "year": 16,
+      "action": "BRISBANE BOX",
+      "actionIndex": 2,
+      "starsScore": 62.222,
+      "pctDone": 80.0,
+      "budgetLeft": 343710.0,
+      "reward": 110.08
+    },
+    {
+      "year": 17,
+      "action": "MODESTO ASH",
+      "actionIndex": 10,
+      "starsScore": 62.222,
+      "pctDone": 80.0,
+      "budgetLeft": 650000.0,
+      "reward": -18.37
+    },
+    {
+      "year": 18,
+      "action": "MODESTO ASH",
+      "actionIndex": 10,
+      "starsScore": 63.239,
+      "pctDone": 88.6,
+      "budgetLeft": 342305.0,
+      "reward": 33.84
+    },
+    {
+      "year": 19,
+      "action": "MODESTO ASH",
+      "actionIndex": 10,
+      "starsScore": 64.161,
+      "pctDone": 96.6,
+      "budgetLeft": 243955.0,
+      "reward": 38.75
+    },
+    {
+      "year": 20,
+      "action": "MODESTO ASH",
+      "actionIndex": 10,
+      "starsScore": 65.214,
+      "pctDone": 99.9,
+      "budgetLeft": 156845.0,
+      "reward": -8.44
+    },
+    {
+      "year": 21,
+      "action": "MODESTO ASH",
+      "actionIndex": 10,
+      "starsScore": 65.214,
+      "pctDone": 99.9,
+      "budgetLeft": 650000.0,
+      "reward": -14.43
+    },
+    {
+      "year": 22,
+      "action": "RAYWOOD ASH",
+      "actionIndex": 14,
+      "starsScore": 65.214,
+      "pctDone": 99.9,
+      "budgetLeft": 650000.0,
+      "reward": -14.76
+    },
+    {
+      "year": 23,
+      "action": "STONE FRUIT SPECIES",
+      "actionIndex": 18,
+      "starsScore": 65.214,
+      "pctDone": 99.9,
+      "budgetLeft": 650000.0,
+      "reward": -15.08
+    },
+    {
+      "year": 24,
+      "action": "RAYWOOD ASH",
+      "actionIndex": 14,
+      "starsScore": 65.214,
+      "pctDone": 99.9,
+      "budgetLeft": 650000.0,
+      "reward": -15.4
+    },
+    {
+      "year": 25,
+      "action": "RAYWOOD ASH",
+      "actionIndex": 14,
+      "starsScore": 65.214,
+      "pctDone": 99.9,
+      "budgetLeft": 650000.0,
+      "reward": -15.72
+    }
+  ],
+  "rlPreferences": {
+    "VALLEY OAK": 54.1,
+    "DESERT WILLOW": 76.9,
+    "TEXAS EBONY": 97.9,
+    "CALIFORNIA BUCKEYE": 59.0,
+    "COAST LIVE OAK": 82.4,
+    "INTERIOR LIVE OAK": 51.2,
+    "HOLLY OAK": 100.0,
+    "CATALINA IRONWOOD": 50.4
+  },
+  "winConditions": {
+    "description": "Beat the AI's year-25 STARS score",
+    "aiScore": 65.214,
+    "metric": "population-weighted STARS score (CR*0.35 + EES*0.25 + ...)"
+  },
+  "instructions": [
+    "Each year, choose one at-risk batch to start replacing, or defer.",
+    "Swapping costs removal + replanting fees \u2014 check your budget first.",
+    "Tackle Priority 4 & 5 species early \u2014 climate stress rises each year.",
+    "Deferring is sometimes smart, but the penalty grows as years pass.",
+    "After 25 years, your STARS score trajectory is shown vs the AI."
+  ],
+  "tips": [
+    "The AI learned to prioritise the highest-urgency batches first.",
+    "Finishing a batch completely unlocks budget for the next one.",
+    "Maintenance costs are deducted automatically each year.",
+    "The AI beats most human schedules by year 10 \u2014 can you catch up?"
+  ]
+}

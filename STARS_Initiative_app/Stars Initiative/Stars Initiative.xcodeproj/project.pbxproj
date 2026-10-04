@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C8A9F2632E1AE99200600781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A9F24C2E1AE99200600781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A9F2532E1AE99200600781;
+			remoteInfo = "Tree App";
+		};
+		C8A9F26D2E1AE99200600781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A9F24C2E1AE99200600781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A9F2532E1AE99200600781;
+			remoteInfo = "Tree App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C827F5912E36AE2D00A2D3E6 /* Stars Initiative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Stars Initiative.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		C8A9F2542E1AE99200600781 /* Stars Initiative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stars Initiative.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A9F2622E1AE99200600781 /* Stars InitiativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stars InitiativeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A9F26C2E1AE99200600781 /* Stars IniitiativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stars IniitiativeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C858A1E92F9ED68200541D21 /* Exceptions for "Stars Initiative" folder in "Stars InitiativeTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CityAssets.swift,
+				CityCompare.swift,
+				Cupertino_Action_Plan.xlsx,
+				Cupertino_ios_impact_export.json,
+				Cupertino_rl_game_config.json,
+				Cupertino_Smart_Zones.csv,
+				GNNImpactModels.swift,
+				GNNSpatialImpactView.swift,
+				Milpitas_Action_Plan.xlsx,
+				Milpitas_ios_impact_export.json,
+				Milpitas_rl_game_config.json,
+				Milpitas_Smart_Zones.csv,
+				MtView_Action_Plan.xlsx,
+				MtView_ios_impact_export.json,
+				MtView_rl_game_config.json,
+				MtView_Smart_Zones.csv,
+				RLGameModels.swift,
+				RLGameView.swift,
+				Sunnyvale_Action_Plan.xlsx,
+				Sunnyvale_ios_impact_export.json,
+				Sunnyvale_rl_game_config.json,
+				Sunnyvale_Smart_Zones.csv,
+				tree_data.csv,
+				TreesToPlant.swift,
+			);
+			target = C8A9F2612E1AE99200600781 /* Stars InitiativeTests */;
+		};
+		C858A1EA2F9ED68200541D21 /* Exceptions for "Stars Initiative" folder in "Stars IniitiativeUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CityAssets.swift,
+				CityCompare.swift,
+				Cupertino_Action_Plan.xlsx,
+				Cupertino_ios_impact_export.json,
+				Cupertino_rl_game_config.json,
+				Cupertino_Smart_Zones.csv,
+				GNNImpactModels.swift,
+				GNNSpatialImpactView.swift,
+				Milpitas_Action_Plan.xlsx,
+				Milpitas_ios_impact_export.json,
+				Milpitas_rl_game_config.json,
+				Milpitas_Smart_Zones.csv,
+				MtView_Action_Plan.xlsx,
+				MtView_ios_impact_export.json,
+				MtView_rl_game_config.json,
+				MtView_Smart_Zones.csv,
+				RLGameModels.swift,
+				RLGameView.swift,
+				Sunnyvale_Action_Plan.xlsx,
+				Sunnyvale_ios_impact_export.json,
+				Sunnyvale_rl_game_config.json,
+				Sunnyvale_Smart_Zones.csv,
+				tree_data.csv,
+				TreesToPlant.swift,
+			);
+			target = C8A9F26B2E1AE99200600781 /* Stars IniitiativeUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C8A9F2562E1AE99200600781 /* Stars Initiative */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C858A1E92F9ED68200541D21 /* Exceptions for "Stars Initiative" folder in "Stars InitiativeTests" target */,
+				C858A1EA2F9ED68200541D21 /* Exceptions for "Stars Initiative" folder in "Stars IniitiativeUITests" target */,
+			);
+			path = "Stars Initiative";
+			sourceTree = "<group>";
+		};
+		C8A9F2652E1AE99200600781 /* Stars InitiativeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Stars InitiativeTests";
+			sourceTree = "<group>";
+		};
+		C8A9F26F2E1AE99200600781 /* Stars InitiativeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Stars InitiativeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8A9F2512E1AE99200600781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A9F25F2E1AE99200600781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A9F2692E1AE99200600781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8A9F24B2E1AE99200600781 = {
+			isa = PBXGroup;
+			children = (
+				C827F5912E36AE2D00A2D3E6 /* Stars Initiative.xcodeproj */,
+				C8A9F2562E1AE99200600781 /* Stars Initiative */,
+				C8A9F2652E1AE99200600781 /* Stars InitiativeTests */,
+				C8A9F26F2E1AE99200600781 /* Stars InitiativeUITests */,
+				C8A9F2552E1AE99200600781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8A9F2552E1AE99200600781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8A9F2542E1AE99200600781 /* Stars Initiative.app */,
+				C8A9F2622E1AE99200600781 /* Stars InitiativeTests.xctest */,
+				C8A9F26C2E1AE99200600781 /* Stars IniitiativeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8C093F9301E81F0009BCB68 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8A9F2532E1AE99200600781 /* Stars Initiative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A9F2762E1AE99200600781 /* Build configuration list for PBXNativeTarget "Stars Initiative" */;
+			buildPhases = (
+				C8A9F2502E1AE99200600781 /* Sources */,
+				C8A9F2512E1AE99200600781 /* Frameworks */,
+				C8A9F2522E1AE99200600781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C8A9F2562E1AE99200600781 /* Stars Initiative */,
+			);
+			name = "Stars Initiative";
+			packageProductDependencies = (
+			);
+			productName = "Tree App";
+			productReference = C8A9F2542E1AE99200600781 /* Stars Initiative.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8A9F2612E1AE99200600781 /* Stars InitiativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A9F2792E1AE99200600781 /* Build configuration list for PBXNativeTarget "Stars InitiativeTests" */;
+			buildPhases = (
+				C8A9F25E2E1AE99200600781 /* Sources */,
+				C8A9F25F2E1AE99200600781 /* Frameworks */,
+				C8A9F2602E1AE99200600781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8A9F2642E1AE99200600781 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C8A9F2652E1AE99200600781 /* Stars InitiativeTests */,
+			);
+			name = "Stars InitiativeTests";
+			packageProductDependencies = (
+			);
+			productName = "Tree AppTests";
+			productReference = C8A9F2622E1AE99200600781 /* Stars InitiativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8A9F26B2E1AE99200600781 /* Stars IniitiativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A9F27C2E1AE99200600781 /* Build configuration list for PBXNativeTarget "Stars IniitiativeUITests" */;
+			buildPhases = (
+				C8A9F2682E1AE99200600781 /* Sources */,
+				C8A9F2692E1AE99200600781 /* Frameworks */,
+				C8A9F26A2E1AE99200600781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8A9F26E2E1AE99200600781 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C8A9F26F2E1AE99200600781 /* Stars InitiativeUITests */,
+			);
+			name = "Stars IniitiativeUITests";
+			packageProductDependencies = (
+			);
+			productName = "Tree AppUITests";
+			productReference = C8A9F26C2E1AE99200600781 /* Stars IniitiativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8A9F24C2E1AE99200600781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					C8A9F2532E1AE99200600781 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C8A9F2612E1AE99200600781 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C8A9F2532E1AE99200600781;
+					};
+					C8A9F26B2E1AE99200600781 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C8A9F2532E1AE99200600781;
+					};
+				};
+			};
+			buildConfigurationList = C8A9F24F2E1AE99200600781 /* Build configuration list for PBXProject "Stars Initiative" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8A9F24B2E1AE99200600781;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C8A9F2552E1AE99200600781 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C8C093F9301E81F0009BCB68 /* Products */;
+					ProjectRef = C827F5912E36AE2D00A2D3E6 /* Stars Initiative.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C8A9F2532E1AE99200600781 /* Stars Initiative */,
+				C8A9F2612E1AE99200600781 /* Stars InitiativeTests */,
+				C8A9F26B2E1AE99200600781 /* Stars IniitiativeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8A9F2522E1AE99200600781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A9F2602E1AE99200600781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A9F26A2E1AE99200600781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8A9F2502E1AE99200600781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A9F25E2E1AE99200600781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A9F2682E1AE99200600781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8A9F2642E1AE99200600781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A9F2532E1AE99200600781 /* Stars Initiative */;
+			targetProxy = C8A9F2632E1AE99200600781 /* PBXContainerItemProxy */;
+		};
+		C8A9F26E2E1AE99200600781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A9F2532E1AE99200600781 /* Stars Initiative */;
+			targetProxy = C8A9F26D2E1AE99200600781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8A9F2742E1AE99200600781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8A9F2752E1AE99200600781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C8A9F2772E1AE99200600781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Stars Initiative/Stars Initiative.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tree-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Stars Initiative";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to photograph your planting area for dimension estimation.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allows app to determine trees to plant";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Used to read phone tilt angle for accurate plot measurement.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Used to select a photo of your planting area for dimension estimation.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redcobra.Tree-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		C8A9F2782E1AE99200600781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Stars Initiative/Stars Initiative.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tree-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Stars Initiative";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to photograph your planting area for dimension estimation.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allows app to determine trees to plant";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Used to read phone tilt angle for accurate plot measurement.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Used to select a photo of your planting area for dimension estimation.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redcobra.Tree-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		C8A9F27A2E1AE99200600781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redcobra.Tree-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tree App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tree App";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		C8A9F27B2E1AE99200600781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redcobra.Tree-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tree App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tree App";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		C8A9F27D2E1AE99200600781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redcobra.Tree-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Tree App";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		C8A9F27E2E1AE99200600781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redcobra.Tree-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Tree App";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8A9F24F2E1AE99200600781 /* Build configuration list for PBXProject "Stars Initiative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A9F2742E1AE99200600781 /* Debug */,
+				C8A9F2752E1AE99200600781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A9F2762E1AE99200600781 /* Build configuration list for PBXNativeTarget "Stars Initiative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A9F2772E1AE99200600781 /* Debug */,
+				C8A9F2782E1AE99200600781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A9F2792E1AE99200600781 /* Build configuration list for PBXNativeTarget "Stars InitiativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A9F27A2E1AE99200600781 /* Debug */,
+				C8A9F27B2E1AE99200600781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A9F27C2E1AE99200600781 /* Build configuration list for PBXNativeTarget "Stars IniitiativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A9F27D2E1AE99200600781 /* Debug */,
+				C8A9F27E2E1AE99200600781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8A9F24C2E1AE99200600781 /* Project object */;
+}
